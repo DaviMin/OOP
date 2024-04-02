@@ -1,7 +1,8 @@
 # Zakladam main, ke kteremu potrebuju objekty zvenci
 
 # ted prenasim funkci Fraction ze souboru fraction.py
-from fraction import Fraction
+"""from fraction import Fraction
+from my_error import MyCustomError
 
 f1 = Fraction(1,3)
 print(f1)
@@ -20,5 +21,9 @@ print(f3)
 
 try:
     f3 += 3
-except TypeError:
-    print ("pokusil jsi se secist neshodujici se typy")
+except MyCustomError:
+    print ("pokusil jsi se secist neshodujici se typy")"""
+
+c1 = Car("Skoda", "cerna")
+
+print(c1.name)

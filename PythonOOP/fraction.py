@@ -1,3 +1,5 @@
+from my_error import MyCustomError
+
 class Fraction:
 
     def __init__(self, nominator, denominator):
