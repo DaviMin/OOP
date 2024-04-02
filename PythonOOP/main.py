@@ -13,7 +13,7 @@ def read_from_file(file_name): # bez dat, ze budu jenom cist
 
     return data
 
-if __name__ == '__main__': #TODO zjistit co to je za fintu
+if __name__ == '__main__': #TODO zjistit co to je za znamena to, ze s tema podtrzitkama je spousteny jako hlavni soubor
     MY_FILE = "file.txt" #d efinuji si konstantu na vyhrazený soubor (vytvarim si bezne konfiguracni soubor s konstantama)
 
     user_input = input("zadej zpravu: ")
@@ -22,3 +22,7 @@ if __name__ == '__main__': #TODO zjistit co to je za fintu
 
     data = read_from_file(MY_FILE)
     print(data)
+
+# OOP obsahuje objektty, budou se s tim rezit polymorfie, dedicnost apod...
+# Objekty jsou takove datove typy
+# Class - budeme vyrabet datove typy jako auto, cloveka, stroj
