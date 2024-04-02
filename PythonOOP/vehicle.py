@@ -3,7 +3,7 @@
 # Class - budeme vyrabet datove typy jako auto, cloveka, stroj
 
 class Vehicle: # tridy jsou zvykle psat s velkym pismenem
-    def __init__(self, name): # __ znamenaji magic neco - TODO, self znamena, ze se odkazuje smao na sebe
+    def __init__(self, name): # __ znamenaji magic methods - TODO, self znamena, ze se odkazuje smao na sebe
         # __init__ inicializace konkretniho objektu podle Classu
         self.name = name # ulozi se do vlastniho self jmena - bezna praxe
 
