@@ -24,6 +24,10 @@ try:
 except MyCustomError:
     print ("pokusil jsi se secist neshodujici se typy")"""
 
+
+
+
+
 c1 = Car("Skoda", "cerna")
 
 print(c1.name)
