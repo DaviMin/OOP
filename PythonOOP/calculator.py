@@ -1,11 +1,11 @@
-class Calculator: # chci jen 1 kalkulacku, proto se to resi individ, neni tam __init__
+class Calculator: # chci jen 1 kalkulacku, proto se to resi individ, neni tady proto __init__
     ans = 0
     @staticmethod
     def add(a, b):
         return a + b
 
     @staticmethod
-    def divide(self, a, b):
+    def divide(a, b):
         return a / b
 
     @classmethod
@@ -18,3 +18,7 @@ class Calculator: # chci jen 1 kalkulacku, proto se to resi individ, neni tam __
         cls.ans = 0
 
 # TODO nastudovat rozdil mezi staticmethod a classmethod (obe jsou bez self), nazývají se dekorátor
+
+    @staticmethod
+    def largest(*args): # vlozi se jako seznam
+        return max(args)
