@@ -3,6 +3,7 @@
 # closures funkce - muzeme delat funkce ve funkcich a pak vracet returnem
 # TODO problematika scopes
 # muze to byt prave o tom, ze si tvorim funkci s datam z jineho souboru
+# tohle uz jsou pokrocilejsi techniky
 
 
 def counter():
@@ -24,7 +25,10 @@ print(c)
 print(c()) # vola se increment v c, jsou to zanořené funkce
 print(c())
 print(c())
+print("TADY: ", counter()())
+print("TADY: ", counter()())
 
+# rozdilny vysledky kvuli zavorkam - increment se tvori nanovo, proto je +1
 def print_Hello():
     print("hello")
     return "return" # tady vracim text
